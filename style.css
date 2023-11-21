@@ -1,0 +1,160 @@
+
+body {
+    height: 100vh;
+    width: 100vw;
+    outline: 2px solid black ;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto,arial,sans-serif;
+}
+    
+section.navbar {
+    padding-top: 0;
+    flex-grow: 1;
+}
+.left-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+    font-size: 10px;
+    color: #000000DE;
+ 
+
+}
+
+.right-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35vw;
+    font-size: 10px;
+    margin-top: 10px;
+    color: #000000DE;
+}
+.photo {
+    border-radius: 50%;
+    max-width: 100%;
+    height: 5vh;
+    display: block;
+    overflow: auto;   
+}
+
+main {
+    flex-grow: 1;
+}
+.google {
+    width: 35vw;
+    max-width: 100%;
+    height: auto;
+    display: block; /* This ensures that the image is treated as a block element */
+    margin: 0 auto; 
+    margin-top: 2vh;
+    
+}
+
+form {
+   width: 60vw;
+   text-align: center;
+   margin: 0 auto;
+}
+
+button {
+    margin-top: 10px !important;
+    background-color: #F8F9FA;
+    width: 15vw;
+    font-size: 10px !important;
+    border: none !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-control{
+border-radius: 30px !important;
+}
+
+.link {
+    font-size: 10px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none !important;
+    text-align: center;
+    margin-top: 4vh;
+    color: #1558D6;
+}
+
+#disabledSelect {
+    width: 40vw;
+    margin: 0 auto;
+    font-size: 10px;
+    margin-top: 15vh;
+    border-radius: 30px;
+    background-color: #f8f9fa
+
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 0rem !important;
+    background-color: #f8f9fa;
+}
+
+.leaf {
+    width: 1%;
+}
+footer {
+    display: flex;
+    background-color: #f8f9fa; 
+    font-size: 10px;
+    align-items: flex-end;
+    height: 5vh;
+    width: 100%;
+    justify-content: center;
+    padding-right: 5em;
+
+}
+
+.left-footer {
+    display: flex;
+    height: 100%;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 4em;
+}
+
+.left-footer li {
+    text-align: center;
+}
+
+.right-footer {
+    display: flex;
+    height: 100%;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    padding-right: 6em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-footer li {
+    text-align: center;
+}
+
+.right-footer li:nth-child(2) { 
+    text-align: left;
+}
+
+.right-footer li:nth-child(3) {
+    text-align: left;
+    width: 10%;
+}
+
+
+
+li {
+    list-style-type: none;
+}
